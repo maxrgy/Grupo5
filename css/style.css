@@ -6,7 +6,7 @@ body{
     background:#FFEEC3;
     font-family:tahoma;}
 header{
-    background:url(/img/bg_menu.png);
+    background:url(/img/bg_menu.png) 0 0 repeat-x;
 }
 .container{
     margin:auto;
@@ -36,7 +36,7 @@ header{
 }
 .menuPrin ul{
     margin:auto;
-    width:680px;
+    width:764px;
     overflow:hidden;
 }
 .main{
