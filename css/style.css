@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin:auto;
+    width:960px;
+}
+.menuPrin ul li{
+    float:left;
+    list-style:none;
+    margin:40px 10px 10px;
+}
+.menuPrin ul li a{
+    text-decoration:none;
+}
+.menuPrin ul li.logo{
+    margin-top:0 !important;
+}
+.menuPrin ul{
+    margin:auto;
+    width:680px;
+    overflow:hidden;
+}
+.main{
+    overflow:hidden;
+}
+.main .col1{
+    float:left;
+}
+.main .col2{
+    float:right;
+}
