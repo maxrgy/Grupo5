@@ -2,9 +2,22 @@
     margin:0;
     padding:0;
 }
+body{
+    background:#FFEEC3;
+    font-family:tahoma;}
+header{
+    background:url(/img/bg_menu.png);
+}
 .container{
     margin:auto;
     width:960px;
+}
+.contReg{
+    border:1px solid #fff;
+    border-radius:5px;
+    margin:auto;
+    padding:10px;
+    width:180px;
 }
 .menuPrin ul li{
     float:left;
@@ -12,7 +25,11 @@
     margin:40px 10px 10px;
 }
 .menuPrin ul li a{
+    color:#fff;
     text-decoration:none;
+}
+.menuPrin ul li a:hover{
+    text-decoration:underline;
 }
 .menuPrin ul li.logo{
     margin-top:0 !important;
@@ -26,8 +43,45 @@
     overflow:hidden;
 }
 .main .col1{
+    background:#C1DBFF;
+    border:1px solid #fff;
+    border-radius:5px;
     float:left;
+    padding:20px;
+    width:210px;
+}
+.main .col1 .busqueda label, input, select{
+    display:block;
+}
+.main .col1 label{
+    font-size:12px
+}
+.main .col1 .busqueda{
+    margin:auto;
+    padding-bottom:20px;
+    width:180px;
+}
+.main .col1 form label{
+    margin:5px 0;
+}
+.main .col1 form input[type="button"]{
+    cursor:pointer;
+    margin: 5px 0px;
+    background: #307CE3;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+    height: 22px;
+}
+.main .col1 .registro h3{
+    color:#1B539E;
+    font-size:14px;
+    margin-left:24px;
 }
 .main .col2{
+    border:1px solid #000;
+    border-radius:5px;
     float:right;
+    width:700px;
 }
