@@ -4,7 +4,31 @@
 }
 body{
     background:#FFEEC3;
-    font-family:tahoma;}
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    border-top:1px solid #54671E;
+    margin-top:20px;
+    padding:20px 0;
+}
+footer ul{
+    font-size:12px;
+    list-style:none;
+    margin:auto;
+    overflow:hidden;
+    width:960px;
+}
+footer ul li{
+    float:left;
+    margin-right:10px;
+}
+footer ul li a{
+    color:#54671E;
+    text-decoration:none;
+}
+footer ul li a:hover{
+    text-decoration:underline;
+}
 header{
     background:url(/img/bg_menu.png) 0 0 repeat-x;
 }
@@ -13,7 +37,7 @@ header{
     width:960px;
 }
 .contReg{
-    border:1px solid #fff;
+    background:#54671E;
     border-radius:5px;
     margin:auto;
     padding:10px;
@@ -29,22 +53,22 @@ header{
     text-decoration:none;
 }
 .menuPrin ul li a:hover{
-    text-decoration:underline;
+    color:#54671E;
 }
 .menuPrin ul li.logo{
     margin-top:0 !important;
 }
 .menuPrin ul{
     margin:auto;
-    width:764px;
+    width:793px;
     overflow:hidden;
 }
 .main{
     overflow:hidden;
 }
 .main .col1{
-    background:#C1DBFF;
-    border:1px solid #fff;
+    background:#799839;
+    border:1px solid #799839;
     border-radius:5px;
     float:left;
     padding:20px;
@@ -52,6 +76,11 @@ header{
 }
 .main .col1 .busqueda label, input, select{
     display:block;
+}
+.main .col1 .busqueda select{
+    border-radius:5px;
+    height:22px;
+    width:180px;
 }
 .main .col1 label{
     font-size:12px
@@ -62,25 +91,35 @@ header{
     width:180px;
 }
 .main .col1 form label{
+    color:#fff;
     margin:5px 0;
 }
 .main .col1 form input[type="button"]{
     cursor:pointer;
-    margin: 5px 0px;
-    background: #307CE3;
-    border: 0;
+    margin: 6px auto;
+    background: #F48329;
+    border: 1px solid #D2640C;
     border-radius: 5px;
     color: #fff;
     width: 100px;
     height: 22px;
 }
+.main .col1 form input[type="text"]{
+    background: #fff;
+    border:0;
+    border-radius: 5px;
+    padding:0 4px;
+    width: 172px;
+    height: 22px;
+}
 .main .col1 .registro h3{
-    color:#1B539E;
+    color:#fff;
     font-size:14px;
     margin-left:24px;
 }
 .main .col2{
-    border:1px solid #000;
+    background:#fff;
+    border:1px solid #fff;
     border-radius:5px;
     float:right;
     width:700px;
