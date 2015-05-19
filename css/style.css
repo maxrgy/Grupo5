@@ -122,5 +122,51 @@ header{
     border:1px solid #fff;
     border-radius:5px;
     float:right;
+    padding-top:20px;
     width:700px;
+}
+
+/********/
+
+.main .col2 h1{
+    color:#54671E;
+    margin:0 20px;
+}
+.main .col2 p{
+    color:#333;
+    font-size:14px;
+    margin:0 20px;
+    text-align:justify;
+}
+.contFood{
+    
+}
+.contBloq{
+    border-bottom:1px solid #FFEEC3;
+    overflow:hidden;
+}
+.contBloq .food{
+    float:left;
+    margin:16px 24px;
+    width:43%;
+}
+.contBloq .food div{
+    border:10px solid #F48329;
+}
+.contBloq .food p{
+    margin:10px 0 0;
+    overflow:hidden;
+}
+.contBloq .food p .tex1{
+    color:#799839;
+    float:left;
+    font-weight:bold;
+}
+.contBloq .food p .tex2{
+    color:#F48329;
+    float:right;
+    font-weight:bold;
+}
+.noBorBot{
+    border-bottom:0;
 }
