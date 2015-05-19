@@ -167,6 +167,45 @@ header{
     float:right;
     font-weight:bold;
 }
+.contBloq .imgRest{
+    border:10px solid #F48329;
+    float:left;
+    margin:20px 0 20px 20px;
+    width:20%;
+}
+.contBloq .detaRest{
+    float:left;
+    height:170px;
+    margin:20px 0 0 20px;
+    position:relative;
+    width:68%;
+}
+.contBloq .detaRest h2{
+    color:#799839;
+    margin-bottom:10px;
+}
+.contBloq .detaRest p{
+    color:#333;
+    font-size:14px;
+    margin:0 0 5px 0;
+}
+.contBloq .detaRest a{
+    background:#F48329;
+    border-radius:5px;
+    bottom:0;
+    color:#fff;
+    display:block;
+    font-size:14px;
+    padding:10px 0;
+    position:absolute;
+    right:0;
+    text-align:center;
+    text-decoration:none;
+    width:100px;
+}
+.contBloq .detaRest a:hover{
+    background:#D2640C;
+}
 .noBorBot{
     border-bottom:0;
 }
