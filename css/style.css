@@ -138,6 +138,9 @@ header{
     margin:0 20px;
     text-align:justify;
 }
+.clear{
+    clear:both;
+}
 .contFood{
     
 }
@@ -173,6 +176,12 @@ header{
     margin:20px 0 20px 20px;
     width:20%;
 }
+.contBloq .imgRestM{
+    border:5px solid #F48329;
+    float:left;
+    margin:0 0 20px 20px;
+    width:12%;
+}
 .contBloq .detaRest{
     float:left;
     height:170px;
@@ -184,12 +193,19 @@ header{
     color:#799839;
     margin-bottom:10px;
 }
+.contBloq .detaRest h2 a{
+    color:#799839;
+    text-decoration:none;
+}
+.contBloq .detaRest h2 a:hover{
+    color:#54671E;
+}
 .contBloq .detaRest p{
     color:#333;
     font-size:14px;
     margin:0 0 5px 0;
 }
-.contBloq .detaRest a{
+.contBloq .detaRest .verMenu{
     background:#F48329;
     border-radius:5px;
     bottom:0;
@@ -203,9 +219,16 @@ header{
     text-decoration:none;
     width:100px;
 }
-.contBloq .detaRest a:hover{
+.contBloq .detaRest .verMenu:hover{
     background:#D2640C;
+}
+.noBBH{
+    height:auto !important;
+    margin-top:0 !important;
 }
 .noBorBot{
     border-bottom:0;
+}
+.noMarTop{
+    margin-top:0 !important;
 }
