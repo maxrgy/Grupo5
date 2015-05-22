@@ -145,7 +145,7 @@ header{
     margin:0 40px 20px 0;
     overflow:hidden;
 }
-.camPed input{
+.camPed input, .btnAcep, .btnCan{
     float:right;
     background:#F48329;
     border:0;
@@ -157,7 +157,7 @@ header{
     text-align:center;
     width:120px;
 }
-.camPed input:hover{
+.camPed input:hover, .btnAcep:hover, .btnCan:hover{
     background:#D2640C;
 }
 .clear{
@@ -244,6 +244,9 @@ header{
 .contBloq .detaRest .verMenu:hover{
     background:#D2640C;
 }
+.contPedi{
+    margin:0 20px;
+}
 .noBBH{
     height:auto !important;
     margin-top:0 !important;
@@ -279,4 +282,30 @@ header{
     color:#799839 !important;
     font-size:16px !important;
     font-weight:bold;
+}
+.nomUser{
+    color:#fff;
+    margin-top:10px;
+    text-align:center;
+}
+.nomHist{
+    color:#799839;
+    font-size:16px;
+    font-weight:bold;
+    margin:10px 0;
+    border-bottom:1px solid #748A37;
+}
+.lisAd{
+    margin:10px 0;
+    padding-left:40px;
+}
+.lisAd li{
+    margin-bottom:10px;
+}
+.lisAd li a{
+    color:#D2640C;
+    text-decoration:none;
+}
+.lisAd li a:hover{
+    text-decoration:underline;
 }
