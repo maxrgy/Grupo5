@@ -104,6 +104,9 @@ header{
     width: 100px;
     height: 22px;
 }
+.main .col1 form input[type="button"]:hover{
+    background:#D2640C;
+}
 .main .col1 form input[type="text"]{
     background: #fff;
     border:0;
@@ -137,6 +140,25 @@ header{
     font-size:14px;
     margin:0 20px;
     text-align:justify;
+}
+.camPed{
+    margin:0 40px 20px 0;
+    overflow:hidden;
+}
+.camPed input{
+    float:right;
+    background:#F48329;
+    border:0;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    font-size:14px;
+    padding:10px 0;
+    text-align:center;
+    width:120px;
+}
+.camPed input:hover{
+    background:#D2640C;
 }
 .clear{
     clear:both;
@@ -231,4 +253,30 @@ header{
 }
 .noMarTop{
     margin-top:0 !important;
+}
+.nomLis{
+    list-style:none;
+    margin:10px 0 10px 30px;
+}
+.nomLis li{
+    margin-bottom:8px;
+    overflow:hidden;
+}
+.nomLis li input[type="checkbox"]{
+    float:left;
+}
+.nomLis li span{
+    float:left;
+    font-size:14px;
+    line-height:12px;
+    margin-left:6px;
+}
+.nomMenu{
+    color:#54671E;
+    text-align:center;
+}
+.nomPla{
+    color:#799839 !important;
+    font-size:16px !important;
+    font-weight:bold;
 }
