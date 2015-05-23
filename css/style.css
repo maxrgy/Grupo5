@@ -309,3 +309,13 @@ header{
 .lisAd li a:hover{
     text-decoration:underline;
 }
+.conPerfil{
+    margin:auto;
+    overflow:hidden;
+    width:960px;
+}
+.conPerfil a{
+    color:#fff;
+    float:right;
+    text-decoration:none;
+}
