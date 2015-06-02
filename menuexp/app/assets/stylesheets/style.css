@@ -30,7 +30,7 @@ footer ul li a:hover{
     text-decoration:underline;
 }
 header{
-    background:url(../images/bg_menu.png) 0 0 repeat-x;
+    background:url(bg_menu.png) 0 0 repeat-x;
 }
 .container{
     margin:auto;
