@@ -123,3 +123,109 @@ WHERE fk.referenced_column_name is not null
   AND fk.table_name = 'districts'
 [0m
   [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `districts`
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-07 20:47:55 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (25.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (352.3ms)
+  Rendered shared/_header.html.erb (16.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 1822ms (Views: 1809.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-ddfd5dbccae50b79c2c85aa4aa01a615c81ce5940224dc4c25e247411a8a45cc.css?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-07 20:47:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-07 20:48:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-07 20:48:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-07 20:48:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-07 20:48:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (25.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateDishes (20150606231032)
+  [1m[36m (153.3ms)[0m  [1mDROP TABLE `dishes`[0m
+  [1m[35mSQL (43.2ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150606231032'
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (2.0ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'menuexp'
+  AND fk.table_name = 'clients'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `clients`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'menuexp'
+  AND fk.table_name = 'districts'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `districts`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateDistricts (20150606230828)
+  [1m[36m (19.0ms)[0m  [1mDROP TABLE `districts`[0m
+  [1m[35mSQL (17.9ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150606230828'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'menuexp'
+  AND fk.table_name = 'clients'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `clients`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateClients (20150606230736)
+  [1m[36m (58.3ms)[0m  [1mDROP TABLE `clients`[0m
+  [1m[35mSQL (18.5ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150606230736'
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m

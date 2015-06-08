@@ -11,30 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150606231032) do
-
-  create_table "clients", force: :cascade do |t|
-    t.string   "email",      limit: 255
-    t.string   "name",       limit: 255
-    t.string   "phone",      limit: 255
-    t.string   "password",   limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-  end
-
-  create_table "dishes", force: :cascade do |t|
-    t.integer  "co_plato",     limit: 4
-    t.string   "no_plato",     limit: 255
-    t.string   "no_tipoplato", limit: 255
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
-  end
-
-  create_table "districts", force: :cascade do |t|
-    t.string   "co_distrito", limit: 255
-    t.string   "no_distrito", limit: 255
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
