@@ -3,8 +3,8 @@ class CreateRestaurants < ActiveRecord::Migration
     create_table :restaurants do |t|
       t.integer :co_local, null:false
       t.string :name
-      t.integer :co_distrito, null:false
-      t.stemail :email
+      t.integer :co_distrito
+      t.string :email
       t.string :password
       t.string :telefono
       t.string :direccion

@@ -5,7 +5,7 @@ class CreateOrderDetails < ActiveRecord::Migration
       t.integer :co_plato
       t.string :no_tipoplato
       t.string :string
-      t.double :qt_precio
+      t.integer :qt_precio
       t.integer :qt_cantidad
       t.integer :co_pedido
 

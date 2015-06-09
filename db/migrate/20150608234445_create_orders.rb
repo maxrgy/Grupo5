@@ -3,7 +3,7 @@ class CreateOrders < ActiveRecord::Migration
     create_table :orders do |t|
       t.integer :co_pedido, null:false
       t.string :email
-      t.double :qt_montototal
+      t.integer :qt_montototal
       t.string :estado
       t.integer :co_local
 
